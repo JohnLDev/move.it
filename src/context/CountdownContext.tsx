@@ -39,7 +39,7 @@ export function CountdownProvider({children} : CountdownProviderProps){
     setIsActive(false)
     setTime(25*60)
     setHasFinished(false)
-  }
+  } 
   
   useEffect(()=> {
     if(isActive && time > 0){
